@@ -1,48 +1,29 @@
-# Challenge ONE | Java | Back-end | Hotel Alura
+# Hotel Bonsai
 
-<p align="center" >
-     <img width="300" heigth="300" src="https://user-images.githubusercontent.com/91544872/189419040-c093db78-c970-4960-8aca-ffcc11f7ffaf.png">
-</p>
-
----
-##  Primeros Pasos:
-
-
-#### 🔹 Marca este proyecto con una ⭐
-#### 🔹 Sigue las orientaciones que tenemos en este repositorio. 📚
-#### 🔹 ¡Visita la página del desafío haciendo clic aquí! [Link do Challenge](https://www.aluracursos.com/challenges/oracle-one-java) 📃
-</br>
+![logo-Hotel-Bonsai](https://user-images.githubusercontent.com/81053467/214396658-064b90b2-8f5b-4f6c-aced-f32374a7cd04.png)
 
 ## 🖥️ Tecnologías Utilizadas:
 
-- Java
-- Eclipse
+- Java + Librerías
+- IDE Eclipse
 - Biblioteca JCalendar
-- MySql
+- MySQL
 - Plugin WindowBuilder </br>
 
 ---
 ## ⚠️ Importante! ⚠️
 
-☕ Use Java versión 8 o superior para compatibilidad. </br></br>
-📝 Recomendamos usar el editor de Eclipse para compatibilidad con la Interfaz Gráfica. </br></br>
-🎨 La interfaz contiene dos métodos importantes:
-- setResizable(false): determina el tamaño de la ventana, y a través del parámetro <strong>false</strong>, la pantalla no se puede maximizar;
-- setLocationRelativeTo(null): determina la ubicación de la ventana, y a través del parámetro <strong>null</strong> la mantiene centrada en la pantalla.
-
-#### Para este desafío, concéntrate en la parte lógica y la conexión con la base de datos, después de completar el desafío, siéntate libre de agregar nuevas funciones y modificar la interfaz gráfica.
+☕ Usa Java versión 8 o superior para compatibilidad. </br></br>
+📝 Usa Eclipse para compatibilidad con la interfaz gráfica. </br></br>
 ---
 
-## 🔍 ¡Analizando nuestro repositorio!
+## 🔍 ¡Analizando el repositorio!
 
-### Este es el repositorio base de nuestro proyecto, en el encontrarás:
 #### 🔹 src/views: carpeta con toda la interfaz gráfica de las pantallas necesarias para desarrollar el programa;
 #### 🔹 src/imagenes: carpeta con imágenes que puedes usar en tu proyecto. Siéntete libre de usar otros, si lo deseas;
 </br>
 
 ## ⬇️ Download
-
-### Cómo descargar:
 
 #### 🔹 Fork
 
@@ -58,13 +39,13 @@
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173256272-6dd3eaba-b52e-42ec-b307-17ed785f9110.png">
 </p>
 
-3 - Haz clic en la opción <strong>Code</strong>. Se mostrarán tres formas de instalar el repositorio en su máquina, y destacamos dos:
+3 - Haz clic en la opción <strong>Code</strong>. Se mostrarán tres formas de instalar el repositorio en tu máquina, y destacamos dos:
 
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173166461-e62d9704-98d5-4773-a60e-57d5729575ae.png">
 </p></br>
 
-#### 🔹 Clonar o descargar el ZIP
+#### 🔹 Clonar 
 
 1 - Para clonar, simplemente copia el <em>url</em> resaltado en la imagen y ubicado justo debajo del HTTPS, crea una carpeta en tu computadora, abre el <em>cmd</em> o el <em>git bash</em> dentro de esa carpeta y luego ingresa el comando <strong>git clone</strong> y con el botón derecho del mouse dentro del terminal haz click en la opcion <strong>Paste</strong> para pegar el <em>url</em> y presiona <em>Enter</em>. 
 
@@ -72,12 +53,16 @@
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173256523-79d38ee2-8668-435c-b31a-ac6ba78bb813.png">
 </p>
 
+#### 🔹 Descargar el ZIP
+
 2 - La segunda opción es descargar el código en un paquete <strong>"zipado"</strong> y extraer la carpeta a tu computadora.
 </br></br>
 
 ## 📝 Eclipse
 
-### ¿Cómo importar mi proyecto a Eclipse?
+### Importar el proyecto
+
+#### 🔹 Opción 1
 
 1 - Una vez dentro del Editor al lado izquierdo, haz clic en el <em>Files</em> que está en el menú en la parte superior, elige la opción <em>Open Projects from File System</em>.
 
@@ -90,6 +75,8 @@ Luego haz click en <em>Directory</em> y ubica el directorio del proyecto "clonad
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/173110215-f9451a5e-a9eb-4056-aec8-6eb3e3601e53.png">
 </p>
+
+#### 🔹 Opción 2
 
 2 - La segunda forma de importar es en <em>File</em> en la opción <em>Import</em>. O a través del <strong>Project Explorer</strong> haz clic en el campo vacío con el botón derecho del mouse y elijas la opción <strong>Import</strong>.
 
@@ -115,7 +102,7 @@ Luego haz clic en el botón <em>Browse</em> y busca el proyecto en el directorio
 
 ## 📅 JCalendar
 
-Tras realizar la importación a tu editor, es necesario instalar la librería <strong>JCalendar</strong>, de lo contrário, el proyecto presentará un error y no será posible abrir la ventana de <strong>Reservas</strong>. </br>
+Tras realizar la importación a tu editor, es necesario instalar la librería <strong>JCalendar</strong>, de lo contrario, el proyecto presentará un error y no será posible abrir la ventana de <strong>Reservas</strong>. </br>
 
 Para instalar, se necesita descargar el paquete a través de ese enlace: 
 🔹 [Link para el JCalendar](https://toedter.com/jcalendar/)
@@ -165,31 +152,10 @@ Por lo tanto, el proyecto debe contener los siguientes archivos después de las 
 
 #### Al clonar o descargar el proyecto base y tener instalado el JCalendar, tendrás esta presentación al ejecutar el proyecto en Eclipse:
 
-<p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/91544872/189419249-06b539da-7cf2-4d40-a711-618a5c872096.png">
-</p>
+![Vista-Menu-Principal](https://user-images.githubusercontent.com/81053467/214401595-3a2f0bad-65e9-499e-9ff1-5d50a92e7c29.png)
 
-### ⚠️ Descargué el proyecto pero los caracteres especiales no funcionan:
 
-Si tu proyecto tiene errores como los de la imagen, siga los pasos a continuación:
-
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/91544872/189419556-20b67f67-003c-47ac-a0ae-02cf814a6ccb.png">
-</p>
-
-Ve a <em>Window</em> y haz clic en <em>Preferences</em>.
-
-<p align="center" >
-     <img width="200" heigth="200" src="https://user-images.githubusercontent.com/101413385/173693126-8e2fec8b-91b1-4007-bbc5-010bb454f440.png">
-</p>
-
-Luego haz clic en <em>General</em> y en <em>Workspace</em>. Si tu <em>Text File Enconding</em> no está con el <strong>Default (UTF-8)</strong>, haz clic en <em>Other</em>, y eliges la opción <strong>UTF-8</strong>, y finaliza haciendo clic <em>Apply and Close</em>.
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173691963-1e3d966e-5162-4393-9232-d5d395d5440f.png">
-</p>
-
-## 📊 Banco de Dados
+## 📊 Banco de Datos
 
 ### ¿Cómo importar MySqlConnector al proyecto?
 
@@ -218,7 +184,7 @@ Es la misma ruta descrita para importar el <strong>JCalendar</strong>, haga clic
 
 ### Modelado de tablas:
 
-Para este reto te proponemos dos tablas: <strong>Reservas</strong> y <strong>Huéspedes</strong>. La tabla de huéspedes debe contener la clave externa <em>(foreign key)</em> <strong>idReserva</strong>.
+Estructura simple de dos tablas: <strong>Reservas</strong> y <strong>Huéspedes</strong>. La tabla de huéspedes debe contener la clave externa <em>(foreign key)</em> <strong>idReserva</strong>.
 
 <p align="center" >
      <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/169529338-09a4d4c2-1b5a-41dc-b305-38498ebc29a8.png">
@@ -229,7 +195,7 @@ Para este reto te proponemos dos tablas: <strong>Reservas</strong> y <strong>Hu�
 
 ## 🗔 Plugin WindowBuilder
 
-En el menú de <strong>Eclipse</strong>, ir a la pestaña <em>Help</em> y seleccione la opción <em>Eclipse Marketplace</em>.
+En el menú de <strong>Eclipse</strong>, ir a la pestaña <em>Help</em> y selecciona la opción <em>Eclipse Marketplace</em>.
 
 <p align="center" >
      <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173254683-a4d27b04-3994-4c7b-bf70-6e1b665a5452.png">
@@ -257,43 +223,14 @@ Después de la instalación, será necesario reiniciar el <strong>Eclipse</stron
 
 ### ¿Cómo abrir cada ventana de diseño?
 
-Una vez que completes el desafío, si quieres explorar el <em>Window Builder</em> y agregar nuevas ventanas, o cambiar el diseño de las existentes, haz clic en el archivo <strong>.java</strong>, y luego en <em>Open With</em> y finalmente en <em>Window Builder Editor</em>.
+Si quieres explorar el <em>Window Builder</em> y agregar nuevas ventanas, o cambiar el diseño de las existentes, haz clic en el archivo <strong>.java</strong>, y luego en <em>Open With</em> y finalmente en <em>Window Builder Editor</em>.
 
 <p align="center" >
      <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173681973-5699a164-b66d-49f5-87c1-5436dd425457.png">
 </p>
 
-La pestaña de <em>Design</em> se abrirá por encima de la zona del <em>Console</em>. ¡Aquí puedes liberar al artista que llevas dentro de ti!
+La pestaña de <em>Design</em> se abrirá por encima de la zona del <em>Console</em>. 
 
 <p align="center" >
      <img width="500" heigth="500" src="https://user-images.githubusercontent.com/101413385/173682648-4c371224-fe4b-4e57-a3ee-9298a4d44554.png">
 </p>
-
-## 📬 Entrega
-
-### ¿Cómo incluir mi proyecto con el "#" del desafío?
-
-1) Ten el <strong>Fork</strong> del proyecto en tu repositorio en Github.
-2) Utilize el topico **#challengeonehotelaluralatam2** </br>
-3) Ve a la pestaña derecha de tu proyecto y haz clic en el engranaje de configuración en la sección <em>About</em>, seleccione el campo **topics** e inserte la etiqueta **challengeonehotelaluralatam2**
-
-
-### ¿Cómo hago la entrega final de mi Proyecto?
-
-4) Rellena el siguiente formulario con tus datos personales, junto con el enlace de tu repositorio. 🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-lp-entrega-de-challenge-one-esp)
-
-<p align="center" >
-     <img width="700" heigth="700" src="https://user-images.githubusercontent.com/91544872/189419937-e71f7b5d-9f79-48c3-8806-81f8ba291ca1.png">
-</p>
-
-5) Ve a tu correo electrónico y canjea tu insignia obtenida al completar otro desafío del Proyecto ONE! 🏆
-
-6) ¡No olvides poner un enlace o video de tu proyecto en Linkedin! Etiqueta a #Oracle y #AluraLatam 🏁
-
-🧡 <strong>Oracle</strong></br>
-<a href="https://www.linkedin.com/company/oracle/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-
-💙 <strong>Alura Latam</strong></br>
-<a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
