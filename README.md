@@ -17,10 +17,6 @@
 📝 Usa Eclipse para compatibilidad con la interfaz gráfica. </br></br>
 ---
 
-## 🔍 ¡Analizando el repositorio!
-
-#### 🔹 src/views: carpeta con toda la interfaz gráfica de las pantallas necesarias para desarrollar el programa;
-#### 🔹 src/imagenes: carpeta con imágenes que puedes usar en tu proyecto. Siéntete libre de usar otros, si lo deseas;
 </br>
 
 ## ⬇️ Download
